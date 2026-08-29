@@ -1,0 +1,31 @@
+S  -> q0
+q0 -> 0q1 | 1q1 | 2q1 | 3q1 | 4q1 | 5q1 | 6q1 | 7q1 | 8q1 | 9q1
+q1 -> 0q2 | 1q2 | 2q2 | 3q2 | 4q2 | 5q2 | 6q2 | 7q2 | 8q2 | 9q2
+q2 -> 0q3 | 1q3 | 2q3 | 3q3 | 4q3 | 5q3 | 6q3 | 7q3 | 8q3 | 9q3
+q3 -> 0q4 | 1q4 | 2q4 | 3q4 | 4q4 | 5q4 | 6q4 | 7q4 | 8q4 | 9q4
+q4 -> 0q5 | 1q5 | 2q5 | 3q5 | 4q5 | 5q5 | 6q5 | 7q5 | 8q5 | 9q5
+q5 -> -
+q6 -> 0q7 | 1q7 | 2q7 | 3q7 | 4q7 | 5q7 | 6q7 | 7q7 | 8q7 | 9q7
+q7 -> 0q8 | 1q8 | 2q8 | 3q8 | 4q8 | 5q8 | 6q8 | 7q8 | 8q8 | 9q8
+q8 -> 0q9 | 1q9 | 2q9 | 3q9 | 4q9 | 5q9 | 6q9 | 7q9 | 8q9 | 9q9
+q9 -> ε
+
+
+
+	δ  |  0  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |  -  |
+ -> q0 |  q1 |  q1 |  q1 |  q1 |  q1 |  q1 |  q1 |  q1 |  q1 |  q1 |     |
+	q1 |  q2 |  q2 |  q2 |  q2 |  q2 |  q2 |  q2 |  q2 |  q2 |  q2 |     |
+	q2 |  q3 |  q3 |  q3 |  q3 |  q3 |  q3 |  q3 |  q3 |  q3 |  q3 |     |
+	q3 |  q4 |  q4 |  q4 |  q4 |  q4 |  q4 |  q4 |  q4 |  q4 |  q4 |     |
+	q4 |  q5 |  q5 |  q5 |  q5 |  q5 |  q5 |  q5 |  q5 |  q5 |  q5 |     |
+	q5 |     |     |     |     |     |     |     |     |     |     |  q6 |
+	q6 |  q7 |  q7 |  q7 |  q7 |  q7 |  q7 |  q7 |  q7 |  q7 |  q7 |     |
+	q7 |  q8 |  q8 |  q8 |  q8 |  q8 |  q8 |  q8 |  q8 |  q8 |  q8 |     |
+	q8 |  q9 |  q9 |  q9 |  q9 |  q9 |  q9 |  q9 |  q9 |  q9 |  q9 |     |
+  * q9 |     |     |     |     |     |     |     |     |     |     |     |
+
+
+
+https://codigo-postal.org/pt-br/brasil/sc/brusque/
+https://cep.cybo.com/brasil/88350_brusque
+https://pt.wikipedia.org/wiki/C%C3%B3digo_de_Endere%C3%A7amento_Postal
